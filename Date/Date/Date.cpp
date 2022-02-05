@@ -71,10 +71,10 @@ public:
 
 	bool isLeap() {
 		if (item.year % 4) {
-			return true;
+			return false;
 		}
 		else {
-			return false;
+			return true;
 		}
 	}
 
@@ -84,7 +84,7 @@ public:
 			item.month = Months::JANUARY;
 			item.day = 1;
 		}
-		else if (item.month == Months::FEBRUARY && ((isLeap() && item.day == 29) || (!isLeap() && item.day ==28))) {
+		else if (item.month == Months::FEBRUARY && ((isLeap() && item.day == 29) || (!isLeap() && item.day == 28))) {
 			item.month++;
 			item.day = 1;
 		}
@@ -207,18 +207,18 @@ public:
 
 		if (item.month > 1) {
 			for (int i = 1; i < item.month; i++) {
-				if (i == Months::JANUARY) { weeks += 4; days += 3; }
-				if (i == Months::FEBRUARY && isLeap()) { weeks += 4; days += 1; }
-				if (i == Months::FEBRUARY && !isLeap()) { weeks += 4; }
-				if (i == Months::MARCH) { weeks += 4; days += 3; }
-				if (i == Months::APRIL) { weeks += 4; days += 2; }
-				if (i == Months::MAY) { weeks += 4; days += 3; }
-				if (i == Months::JUNE) { weeks += 4; days += 2; }
-				if (i == Months::JULE) { weeks += 4; days += 3; }
-				if (i == Months::AUGUST) { weeks += 4; days += 3; }
-				if (i == Months::SEPTEMBER) { weeks += 4; days += 2; }
-				if (i == Months::OCTOBER) { weeks += 4; days += 3; }
-				if (i == Months::NOVEMBER) { weeks += 4; days += 2; }
+				if (i == Months::JANUARY) { weeks += 4; days += 3; continue; }
+				if (i == Months::FEBRUARY && isLeap()) { weeks += 4; days += 1; continue; }
+				if (i == Months::FEBRUARY && !isLeap()) { weeks += 4; continue; }
+				if (i == Months::MARCH) { weeks += 4; days += 3; continue; }
+				if (i == Months::APRIL) { weeks += 4; days += 2; continue; }
+				if (i == Months::MAY) { weeks += 4; days += 3; continue; }
+				if (i == Months::JUNE) { weeks += 4; days += 2; continue; }
+				if (i == Months::JULE) { weeks += 4; days += 3; continue; }
+				if (i == Months::AUGUST) { weeks += 4; days += 3; continue; }
+				if (i == Months::SEPTEMBER) { weeks += 4; days += 2; continue; }
+				if (i == Months::OCTOBER) { weeks += 4; days += 3; continue; }
+				if (i == Months::NOVEMBER) { weeks += 4; days += 2; continue; }
 			}
 		}
 
@@ -247,8 +247,51 @@ public:
 		fin.close();
 	}
 
-	int daysTillYourBirthday(Date birthdayDate) {
+	int daysDiffent(Date item) {
+		int days = 0;
 
+		for (int i = 0; i < item.year; i++) {
+			if (isLeap()) { days += 366; }
+			else { days += 365; }
+		}
+
+		for (int i = 1; i < item.month; i++) {
+			if (i < Months::AUGUST) {
+				if (i == Months::FEBRUARY && isLeap()) { days += 29;  continue; }
+				if (i == Months::FEBRUARY && !isLeap()) { days += 28; continue; }
+
+				if (i % 2) { days += 31; }
+				else { days += 30; }
+			}
+			else {
+				if (i % 2) { days += 30; }
+				else { days += 31; }
+			}
+		}
+
+		days += item.day;
+
+		return days;
+	}
+
+	int daysTillYourBirthday(Date birthdayDate) {
+		int different = daysDiffent(birthdayDate) - daysDiffent(this->item);
+
+		std::cout << different << "\n";
+		fout << different << "\n";
+
+		return different;
+	}
+
+	void getDaysDifferent(Date birthdayDate) {
+		openFile();
+		getDataSize();
+		int different;
+		for (int i = 0; i < size; i++) {
+			getData();
+			daysTillYourBirthday(birthdayDate);
+		}
+		fin.close();
 	}
 
 	int duration(Date date) {
@@ -264,5 +307,14 @@ int main()
 	A.getPreviousDay();
 	A.getNextDay();
 	A.getWeeks();
+
+	Date MyBirthday;
+	MyBirthday.day = 01;
+	MyBirthday.month = 01;
+	MyBirthday.year = 2022;
+
+	A.getDaysDifferent(MyBirthday);
+
 	return 0;
+
 }
