@@ -6,11 +6,21 @@
 25.04.2000
 01.03.2000
 01.01.2022
-0
-16
-8
-52
-737665
-7938
-7993
-1
+weeks of actual year : 0
+weeks of actual year : 16
+weeks of actual year : 8
+weeks of actual year : 52
+between 1 and your BD : 737665
+between 2 and your BD : 7938
+between 3 and your BD : 7993
+between 4 and your BD : 1
+between 1 and your date : 737701
+between 2 and your date : 7974
+between 3 and your date : 8029
+between 4 and your date : 37
+diffenrent between 1 and 2 : 729748
+diffenrent between 1 and 3 : 729694
+diffenrent between 1 and 4 : 737664
+diffenrent between 2 and 3 : 54
+diffenrent between 2 and 4 : 7916
+diffenrent between 3 and 4 : 7970

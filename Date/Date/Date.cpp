@@ -242,6 +242,8 @@ public:
 		getDataSize();
 		for (int i = 0; i < size; i++) {
 			getData();
+			std::cout << "weeks of actual year : ";
+			fout << "weeks of actual year : ";
 			weekNumber();
 		}
 		fin.close();
@@ -275,7 +277,7 @@ public:
 	}
 
 	int daysTillYourBirthday(Date birthdayDate) {
-		int different = daysDiffent(birthdayDate) - daysDiffent(this->item);
+		int different = abs(daysDiffent(birthdayDate) - daysDiffent(this->item));
 
 		std::cout << different << "\n";
 		fout << different << "\n";
@@ -289,13 +291,51 @@ public:
 		int different;
 		for (int i = 0; i < size; i++) {
 			getData();
+			std::cout << "between " << i + 1 << " and your BD : ";
+			fout << "between " << i + 1 << " and your BD : ";
 			daysTillYourBirthday(birthdayDate);
 		}
 		fin.close();
 	}
 
 	int duration(Date date) {
+		return daysTillYourBirthday(date);
+	}
 
+	void getDuration(Date date) {
+		openFile();
+		getDataSize();
+		int different;
+		for (int i = 0; i < size; i++) {
+			getData();
+			std::cout << "between " << i + 1 << " and your date : ";
+			fout << "between " << i + 1 << " and your date : ";
+			daysTillYourBirthday(date);
+		}
+		fin.close();
+	}
+
+	void diffenentBetweenItems() {
+		int dif;
+		openFile();
+		getDataSize();
+		int different;
+		for (int i = 0; i < size; i++) {
+			getData();
+			arr[i] = this->item;
+		}
+
+		for (int i = 0; i < size; i++) {
+			for (int j = i + 1; j < size; j++) {
+				std::cout << "diffenrent between " << i + 1 << " and " << j + 1 << " : ";
+				fout << "diffenrent between " << i + 1 << " and " << j + 1 << " : ";
+				dif = abs(daysDiffent(arr[i]) - daysDiffent(arr[j]));
+				std::cout << dif << "\n";
+				fout << dif << "\n";
+			}
+		}
+
+		fin.close();
 	}
 
 };
@@ -314,6 +354,14 @@ int main()
 	MyBirthday.year = 2022;
 
 	A.getDaysDifferent(MyBirthday);
+
+	Date date;
+	date.day = 06;
+	date.month = 02;
+	date.year = 2022;
+
+	A.getDuration(date);
+	A.diffenentBetweenItems();
 
 	return 0;
 
