@@ -1,0 +1,21 @@
+1 patient : name - BIGDICK2005  sex - MALE  age - 16  diagnosis - BIG_DICK  number - 93
+2 patient : name - BIGDICK2006  sex - MALE  age - 15  diagnosis - BIG_DICK  number - 7
+3 patient : name - BIGDICK228  sex - FEMALE  age - 18  diagnosis - BIG_DICK  number - 87
+Currecting numbers ...
+1 patient : name - BIGDICK2005  sex - MALE  age - 16  diagnosis - BIG_DICK  number - 93
+2 patient : name - BIGDICK2006  sex - MALE  age - 15  diagnosis - BIG_DICK  number - 93
+3 patient : name - BIGDICK228  sex - FEMALE  age - 18  diagnosis - BIG_DICK  number - 87
+Deleting element ...
+1 patient : name - BIGDICK2005  sex - MALE  age - 16  diagnosis - BIG_DICK  number - 93
+2 patient : name - BIGDICK2006  sex - MALE  age - 15  diagnosis - BIG_DICK  number - 93
+Adding new element ...
+1 patient : name - BIGDICK2005  sex - MALE  age - 16  diagnosis - BIG_DICK  number - 93
+2 patient : name - BIGDICK2006  sex - MALE  age - 15  diagnosis - BIG_DICK  number - 93
+3 patient : name - IVAN  sex - MALE  age - 33  diagnosis - SMALL_DICK  number - 74
+Searching by name ANDREW ...
+There is no one such patient
+Searching by diagnosis SMALL_DICK ...
+3 patient : name - IVAN  sex - MALE  age - 33  diagnosis - SMALL_DICK  number - 74
+Searching by number 93 ...
+1 patient : name - BIGDICK2005  sex - MALE  age - 16  diagnosis - BIG_DICK  number - 93
+2 patient : name - BIGDICK2006  sex - MALE  age - 15  diagnosis - BIG_DICK  number - 93
