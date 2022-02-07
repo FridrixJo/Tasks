@@ -71,6 +71,7 @@ public:
         }
         else {
             std::cout << "There is no one sportman in this list, add more or exit the program\n";
+            fout << "There is no one sportman in this list, add more or exit the program\n";
             return false;
         }
     }
@@ -102,13 +103,21 @@ public:
     void deleteSportman() {
         if (exception()) {
             std::cout << "Choose sportman you want to delete from this list ...\n";
+            fout << "Choose sportman you want to delete from this list ...\n";
             int num;
             std::cin >> num;
-            for (int i = num - 1; i < arr.size() - 1; i++) {
-                std::swap(arr.at(i), arr.at(i + 1));
+            if (num > arr.size()) {
+                std::cout << "SWR! Try one more time ...\n";
+                fout << "SWR! Try one more time ...\n";
+                deleteSportman();
             }
-            arr.pop_back();
-            print();
+            else {
+                for (int i = num - 1; i < arr.size() - 1; i++) {
+                    std::swap(arr.at(i), arr.at(i + 1));
+                }
+                arr.pop_back();
+                print();
+            }
         }
     }
 
@@ -147,8 +156,11 @@ public:
     void search() {
         if (exception()) {
             std::cout << "Write element of sportman for searching : ";
+            fout << "Write element of sportman for searching : ";
             std::string s;
             std::cin >> s;
+            fout << s << "\n";
+
             int counter = 0;
             for (int i = 0; i < arr.size(); i++) {
                 if (s == arr.at(i).country || s == arr.at(i).team || s == arr.at(i).name || s == convert(arr.at(i).number) || s == convert(arr.at(i).age) || s == convert(arr.at(i).weight) || s == convert(arr.at(i).height)) {
@@ -159,6 +171,7 @@ public:
             }
             if (!counter) {
                 std::cout << "There is no one sportman with such element ...\n";
+                fout << "There is no one sportman with such element ...\n";
             }
         }
     }  
@@ -166,16 +179,20 @@ public:
     void changeElement() {
         if (exception()) {
             std::cout << "Write element you want to change : ";
+            fout << "Write element you want to change : ";
             std::string s;
             std::cin >> s;
+            fout << s << "\n";
             bool status = false;
 
             for (int i = 0; i < arr.size(); i++) {
                 if (s == arr.at(i).country || s == arr.at(i).team || s == arr.at(i).name || s == convert(arr.at(i).number) || s == convert(arr.at(i).age) || s == convert(arr.at(i).weight) || s == convert(arr.at(i).height)) {
                     status = true;
                     std::cout << "Write your new element for " << i + 1 << " sportman : ";
+                    fout << "Write your new element for " << i + 1 << " sportman : ";
                     std::string newStr = "";
                     std::cin >> newStr;
+                    fout << newStr << "\n";
 
                     if (s == arr.at(i).country) { arr.at(i).country = newStr; continue; }
                     if (s == arr.at(i).team) { arr.at(i).team = newStr; continue; }
@@ -189,6 +206,7 @@ public:
 
             if (!status) {
                 std::cout << "There is no one sportman with such element ...\n";
+                fout << "There is no one sportman with such element ...\n";
             }
             else {
                 print();
@@ -239,9 +257,20 @@ public:
             std::cout << "6. Sort ascending list of sportmen (sportmen which are elder than 20)\n";
             std::cout << "7. Exit the program\n";
 
+            fout << "What you want to do? ...\n";
+            fout << "1. Show all info about sportmen\n";
+            fout << "2. Add one more sportman\n";
+            fout << "3. Delete sportman\n";
+            fout << "4. Search sportman/sportmen by individual parameters\n";
+            fout << "5. Change parameter/parameters of sportman/sportmen\n";
+            fout << "6. Sort ascending list of sportmen (sportmen which are elder than 20)\n";
+            fout << "7. Exit the program\n";
+
             int var;
             std::cout << "Your choice : ";
+            fout << "Your choice : ";
             std::cin >> var;
+            fout << var << "\n";
 
             switch (var)
             {
@@ -264,10 +293,13 @@ public:
                 sort();
                 break;
             case Actions::EXIT:
+                std::cout << "Thanks for using my program , see you ...\n";
+                fout << "Thanks for using my program , see you ...\n";
                 status = false;
                 break;
             default:
                 std::cout << "SWR! Try one more time ...\n";
+                fout << "SWR! Try one more time ...\n";
                 break;
             }
 

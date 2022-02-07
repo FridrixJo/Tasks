@@ -1,18 +1,406 @@
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 1
 1 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
 2 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
 3 sportman : country - BELARUS team - programming name - Pasha number - 1990 age - 18 height - 191 weight - 77
 4 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
 5 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 2
+1 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+2 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+3 sportman : country - BELARUS team - programming name - Pasha number - 1990 age - 18 height - 191 weight - 77
+4 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+5 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+6 sportman : country - RUSSIA team - programming name - PLUXURY.cpp number - 1221 age - 18 height - 187 weight - 65
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 5
+Write element you want to change : PLUXURY.cpp
+Write your new element for 6 sportman : PLUXURY
+1 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+2 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+3 sportman : country - BELARUS team - programming name - Pasha number - 1990 age - 18 height - 191 weight - 77
+4 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+5 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+6 sportman : country - RUSSIA team - programming name - PLUXURY number - 1221 age - 18 height - 187 weight - 65
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 4
+Write element of sportman for searching : 187
+1 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+2 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+3 sportman : country - RUSSIA team - programming name - PLUXURY number - 1221 age - 18 height - 187 weight - 65
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 5
+Write element you want to change : 187
+Write your new element for 1 sportman : 187
+Write your new element for 2 sportman : 187
+Write your new element for 6 sportman : 188
+1 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+2 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+3 sportman : country - BELARUS team - programming name - Pasha number - 1990 age - 18 height - 191 weight - 77
+4 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+5 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+6 sportman : country - RUSSIA team - programming name - PLUXURY number - 1221 age - 18 height - 188 weight - 65
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 4
+Write element of sportman for searching : 5
+There is no one sportman with such element ...
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 2
+1 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+2 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+3 sportman : country - BELARUS team - programming name - Pasha number - 1990 age - 18 height - 191 weight - 77
+4 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+5 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+6 sportman : country - RUSSIA team - programming name - PLUXURY number - 1221 age - 18 height - 188 weight - 65
+7 sportman : country - BELARUS team - BOOM! name - Egor number - 777 age - 16 height - 197 weight - 65
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 4
+Write element of sportman for searching : programming
+1 sportman : country - BELARUS team - programming name - Pasha number - 1990 age - 18 height - 191 weight - 77
+2 sportman : country - RUSSIA team - programming name - PLUXURY number - 1221 age - 18 height - 188 weight - 65
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 5
+Write element you want to change : programming
+Write your new element for 3 sportman : C++
+Write your new element for 6 sportman : C++
+1 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+2 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+3 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+4 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+5 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+6 sportman : country - RUSSIA team - C++ name - PLUXURY number - 1221 age - 18 height - 188 weight - 65
+7 sportman : country - BELARUS team - BOOM! name - Egor number - 777 age - 16 height - 197 weight - 65
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 6
+1 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+2 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+3 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 2
+1 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+2 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+3 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+4 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+5 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+6 sportman : country - RUSSIA team - C++ name - PLUXURY number - 1221 age - 18 height - 188 weight - 65
+7 sportman : country - BELARUS team - BOOM! name - Egor number - 777 age - 16 height - 197 weight - 65
+8 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 6
+1 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+2 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+3 sportman : country - BELARUS team - runtime name - Sergey number - 21 age - 50 height - 187 weight - 80
+4 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+Choose sportman you want to delete from this list ...
 1 sportman : country - BELARUS team - runtime name - Saha number - 19 age - 50 height - 187 weight - 80
-2 sportman : country - BELARUS team - programming name - Pasha number - 1990 age - 18 height - 191 weight - 77
+2 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
 3 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
 4 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
-1 sportman : country - BELARUS team - programming name - Pasha number - 1990 age - 18 height - 191 weight - 77
+5 sportman : country - RUSSIA team - C++ name - PLUXURY number - 1221 age - 18 height - 188 weight - 65
+6 sportman : country - BELARUS team - BOOM! name - Egor number - 777 age - 16 height - 197 weight - 65
+7 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+Choose sportman you want to delete from this list ...
+1 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
 2 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
 3 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
-1 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
-2 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
-1 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
-1 sportman : country - fprlfr team - rf name - fr number - 4 age - 4 height - 342 weight - 432
-1 sportman : country - fprlfr team - rf name - fr number - 4 age - 4 height - 342 weight - 432
-1 sportman : country - fprlfr team - rf name - fr number - 4 age - 4 height - 342 weight - 432
+4 sportman : country - RUSSIA team - C++ name - PLUXURY number - 1221 age - 18 height - 188 weight - 65
+5 sportman : country - BELARUS team - BOOM! name - Egor number - 777 age - 16 height - 197 weight - 65
+6 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 1
+1 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+2 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+3 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+4 sportman : country - RUSSIA team - C++ name - PLUXURY number - 1221 age - 18 height - 188 weight - 65
+5 sportman : country - BELARUS team - BOOM! name - Egor number - 777 age - 16 height - 197 weight - 65
+6 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+Choose sportman you want to delete from this list ...
+1 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+2 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+3 sportman : country - BELARUS team - climbtime name - Egor number - 12 age - 16 height - 197 weight - 65
+4 sportman : country - BELARUS team - BOOM! name - Egor number - 777 age - 16 height - 197 weight - 65
+5 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+Choose sportman you want to delete from this list ...
+SWR! Try one more time ...
+Choose sportman you want to delete from this list ...
+1 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+2 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+3 sportman : country - BELARUS team - BOOM! name - Egor number - 777 age - 16 height - 197 weight - 65
+4 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+Choose sportman you want to delete from this list ...
+SWR! Try one more time ...
+Choose sportman you want to delete from this list ...
+1 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+2 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+3 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 1
+1 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+2 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+3 sportman : country - NIGERIA team - 3D_BLENDER name - Victor number - 90 age - 26 height - 185 weight - 75
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+Choose sportman you want to delete from this list ...
+SWR! Try one more time ...
+Choose sportman you want to delete from this list ...
+SWR! Try one more time ...
+Choose sportman you want to delete from this list ...
+1 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+2 sportman : country - BELARUS team - army name - Alex number - 42 age - 21 height - 193 weight - 80
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+Choose sportman you want to delete from this list ...
+1 sportman : country - BELARUS team - C++ name - Pasha number - 1990 age - 18 height - 191 weight - 77
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+Choose sportman you want to delete from this list ...
+SWR! Try one more time ...
+Choose sportman you want to delete from this list ...
+SWR! Try one more time ...
+Choose sportman you want to delete from this list ...
+There is no one sportman in this list, add more or exit the program
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 1
+There is no one sportman in this list, add more or exit the program
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 3
+There is no one sportman in this list, add more or exit the program
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 4
+There is no one sportman in this list, add more or exit the program
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 5
+There is no one sportman in this list, add more or exit the program
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 6
+There is no one sportman in this list, add more or exit the program
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 2
+1 sportman : country - BELARUS team - C++ name - machineglytkelly number - 1990 age - 18 height - 191 weight - 78
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 1
+1 sportman : country - BELARUS team - C++ name - machineglytkelly number - 1990 age - 18 height - 191 weight - 78
+What you want to do? ...
+1. Show all info about sportmen
+2. Add one more sportman
+3. Delete sportman
+4. Search sportman/sportmen by individual parameters
+5. Change parameter/parameters of sportman/sportmen
+6. Sort ascending list of sportmen (sportmen which are elder than 20)
+7. Exit the program
+Your choice : 7
+Thanks for using my program , see you ...
