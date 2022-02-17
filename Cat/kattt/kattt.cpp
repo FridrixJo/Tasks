@@ -79,9 +79,6 @@ void deleteBetweenSpaces(std::vector<std::string>& strVec) {
 
 int main()
 {
-    std::string s = "yae";
-    std::swap(s[0], s[1]);
-    std::cout << s <<"\n";
     bool status = false;
     fin.open("input.txt");
     if (fin.is_open()) {
@@ -103,8 +100,11 @@ int main()
         deleteBetweenSpaces(strVec);
     }
 
-    std::cout << "Result : \n";
-    fout << "Result : \n";
+    std::cout << "Result : \t";
+    std::cout << "Quantity of strings - " << strVec.size() << "\n";
+    fout << "Result : \t";
+    fout << "Quantity of strings - " << strVec.size() << "\n";
+   
 
     for (int i = 0; i < strVec.size(); i++) {
         std::cout << strVec.at(i) << "\n";
